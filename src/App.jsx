@@ -18,7 +18,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
           <Route path='/products' element={<Products/>} />
           {/* <Route path='/restaurant' element={<Restaurant/>} />
           <Route path='*' element={<PageNotFound/>} />
