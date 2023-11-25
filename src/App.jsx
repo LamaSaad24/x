@@ -18,13 +18,13 @@ function App() {
         <Navbar />
 
         <Routes>
-          {/* <Route path='/' element={<Home />} /> */}
-          {/* <Route path='/products' element={<Products/>} /> */}
-          {/* <Route path='/restaurant' element={<Restaurant/>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/products' element={<Products/>} />
+          <Route path='/restaurant' element={<Restaurant/>} />
           <Route path='*' element={<PageNotFound/>} />
           <Route path='/restaurant/pizza' element={<Pizza/>} />
           <Route path='/restaurant/salad' element={<Salad/>} />
-          <Route path='/restaurant/onion' element={<Onion/>} /> */}
+          <Route path='/restaurant/onion' element={<Onion/>} />
 
         </Routes>
 
