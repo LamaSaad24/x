@@ -8,28 +8,28 @@ import PageNotFound from './assets/components/page not found/PageNotFound'
 import Pizza from './assets/components/pizza/Pizza.jsx'
 import Onion from './assets/components/onion/Onion.jsx'
 import Salad from './assets/components/salad/Salad.jsx'
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
-  
+
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter>
 
-    <Navbar />
+        <Navbar />
 
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/products' element={<Products/>} />
-      <Route path='/restaurant' element={<Restaurant/>} />
-      <Route path='*' element={<PageNotFound/>} />
-      <Route path='/restaurant/pizza' element={<Pizza/>} />
-      <Route path='/restaurant/salad' element={<Salad/>} />
-      <Route path='/restaurant/onion' element={<Onion/>} />
-      
-    </Routes>
-    
-    </BrowserRouter>
-    
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/products' element={<Products/>} />
+          {/* <Route path='/restaurant' element={<Restaurant/>} />
+          <Route path='*' element={<PageNotFound/>} />
+          <Route path='/restaurant/pizza' element={<Pizza/>} />
+          <Route path='/restaurant/salad' element={<Salad/>} />
+          <Route path='/restaurant/onion' element={<Onion/>} /> */}
+
+        </Routes>
+
+      </BrowserRouter>
+
     </>
   )
 }
